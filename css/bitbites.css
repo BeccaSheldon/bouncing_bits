@@ -1,0 +1,28 @@
+body {
+  background-color: #333;
+  cursor: none !important;
+  margin: 0;
+}
+
+#coins-container{
+  position: relative;
+}
+
+#overlay {
+  background-color: firebrick;
+  border-radius: 1em;
+  color: #ffffff;
+  font-family: 'Champagne & Limousines';
+  font-size: 2em;
+  opacity: 0.8;
+  padding: 2em;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 80%;
+  text-align: center;
+}
+
+#overlay.hidden{
+  display: none;
+}
